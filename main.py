@@ -3,6 +3,9 @@ from modelos.producto import Producto
 
 def menu():
     inventario = Inventario()
+    # Mostrar inventario cargado al iniciar
+    print("\nInventario cargado desde archivo:")
+    inventario.mostrar_inventario()
 
     while True:
         print("-------------------------------------------")
